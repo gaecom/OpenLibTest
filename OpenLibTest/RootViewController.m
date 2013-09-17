@@ -51,6 +51,7 @@
     classArray = [[NSMutableArray alloc]initWithCapacity:10];
     
     //list items
+    [listArray addObject:@"Reachablitity GCD ARC"];
     [listArray addObject:@"JSMessagesViewController"];
     [listArray addObject:@"SVWebViewController"];
     [listArray addObject:@"SVHTTPRequest"];
@@ -60,6 +61,7 @@
 
     
     //class items
+    [classArray addObject:@"ReachablitityGCDVC"];
     [classArray addObject:@"JSMessagesDemoVC"];
     [classArray addObject:@"SVWebViewVC"];
     [classArray addObject:@"SVHttpViewController"];
