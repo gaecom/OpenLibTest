@@ -21,6 +21,9 @@
 		CC327FC317DAF79D0021DA84 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CC327FC217DAF79D0021DA84 /* Default-568h@2x.png */; };
 		CC327FCB17DAF7F10021DA84 /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CC327FCA17DAF7F10021DA84 /* RootViewController.m */; };
 		CC327FCE17DAFFCD0021DA84 /* AFNetworkVC.m in Sources */ = {isa = PBXBuildFile; fileRef = CC327FCD17DAFFCD0021DA84 /* AFNetworkVC.m */; };
+		CC74E06817E8259200ADDE10 /* JSMessagesDemoVC.m in Sources */ = {isa = PBXBuildFile; fileRef = CC74E06717E8259200ADDE10 /* JSMessagesDemoVC.m */; };
+		CC74E06B17E827BA00ADDE10 /* demo-avatar-jobs.png in Resources */ = {isa = PBXBuildFile; fileRef = CC74E06917E827BA00ADDE10 /* demo-avatar-jobs.png */; };
+		CC74E06C17E827BA00ADDE10 /* demo-avatar-woz.png in Resources */ = {isa = PBXBuildFile; fileRef = CC74E06A17E827BA00ADDE10 /* demo-avatar-woz.png */; };
 		CC9E22FF17DEB34300347D00 /* BlockAlertActionSheetVC.m in Sources */ = {isa = PBXBuildFile; fileRef = CC9E22FE17DEB34300347D00 /* BlockAlertActionSheetVC.m */; };
 		CC9E231C17DEBDED00347D00 /* alertBack.png in Resources */ = {isa = PBXBuildFile; fileRef = CC9E231B17DEBDED00347D00 /* alertBack.png */; };
 		CC9E232B17DEF37800347D00 /* TTTAttributeLabelVC.m in Sources */ = {isa = PBXBuildFile; fileRef = CC9E232A17DEF37700347D00 /* TTTAttributeLabelVC.m */; };
@@ -52,6 +55,10 @@
 		CC327FCA17DAF7F10021DA84 /* RootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
 		CC327FCC17DAFFCD0021DA84 /* AFNetworkVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFNetworkVC.h; sourceTree = "<group>"; };
 		CC327FCD17DAFFCD0021DA84 /* AFNetworkVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFNetworkVC.m; sourceTree = "<group>"; };
+		CC74E06617E8259200ADDE10 /* JSMessagesDemoVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSMessagesDemoVC.h; sourceTree = "<group>"; };
+		CC74E06717E8259200ADDE10 /* JSMessagesDemoVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSMessagesDemoVC.m; sourceTree = "<group>"; };
+		CC74E06917E827BA00ADDE10 /* demo-avatar-jobs.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "demo-avatar-jobs.png"; sourceTree = "<group>"; };
+		CC74E06A17E827BA00ADDE10 /* demo-avatar-woz.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "demo-avatar-woz.png"; sourceTree = "<group>"; };
 		CC9E22FD17DEB34300347D00 /* BlockAlertActionSheetVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BlockAlertActionSheetVC.h; sourceTree = "<group>"; };
 		CC9E22FE17DEB34300347D00 /* BlockAlertActionSheetVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BlockAlertActionSheetVC.m; sourceTree = "<group>"; };
 		CC9E231B17DEBDED00347D00 /* alertBack.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = alertBack.png; sourceTree = "<group>"; };
@@ -110,6 +117,8 @@
 				CC327FBC17DAF79D0021DA84 /* AppDelegate.m */,
 				CC327FC917DAF7F10021DA84 /* RootViewController.h */,
 				CC327FCA17DAF7F10021DA84 /* RootViewController.m */,
+				CC74E06617E8259200ADDE10 /* JSMessagesDemoVC.h */,
+				CC74E06717E8259200ADDE10 /* JSMessagesDemoVC.m */,
 				CC1D678417E1B2870059A28A /* SVWebViewVC.h */,
 				CC1D678517E1B2870059A28A /* SVWebViewVC.m */,
 				CC1D678117E1A62F0059A28A /* SVHttpViewController.h */,
@@ -144,6 +153,8 @@
 		CC9E230017DEB88200347D00 /* Images */ = {
 			isa = PBXGroup;
 			children = (
+				CC74E06917E827BA00ADDE10 /* demo-avatar-jobs.png */,
+				CC74E06A17E827BA00ADDE10 /* demo-avatar-woz.png */,
 				CC9E231B17DEBDED00347D00 /* alertBack.png */,
 			);
 			name = Images;
@@ -208,6 +219,8 @@
 				CC327FC317DAF79D0021DA84 /* Default-568h@2x.png in Resources */,
 				CC9E231C17DEBDED00347D00 /* alertBack.png in Resources */,
 				CC1D677E17E18D100059A28A /* json_parser in Resources */,
+				CC74E06B17E827BA00ADDE10 /* demo-avatar-jobs.png in Resources */,
+				CC74E06C17E827BA00ADDE10 /* demo-avatar-woz.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -259,6 +272,7 @@
 				CC9E232B17DEF37800347D00 /* TTTAttributeLabelVC.m in Sources */,
 				CC1D678317E1A62F0059A28A /* SVHttpViewController.m in Sources */,
 				CC1D678617E1B2880059A28A /* SVWebViewVC.m in Sources */,
+				CC74E06817E8259200ADDE10 /* JSMessagesDemoVC.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

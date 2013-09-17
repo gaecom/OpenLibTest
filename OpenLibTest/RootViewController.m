@@ -11,6 +11,7 @@
 #import "BlockAlertActionSheetVC.h"
 #import "TTTAttributeLabelVC.h"
 #import "SVHttpViewController.h"
+#import "JSMessagesDemoVC.h"
 
 @interface RootViewController ()
 
@@ -50,6 +51,7 @@
     classArray = [[NSMutableArray alloc]initWithCapacity:10];
     
     //list items
+    [listArray addObject:@"JSMessagesViewController"];
     [listArray addObject:@"SVWebViewController"];
     [listArray addObject:@"SVHTTPRequest"];
     [listArray addObject:@"TTTAttributeLabel"];
@@ -58,6 +60,7 @@
 
     
     //class items
+    [classArray addObject:@"JSMessagesDemoVC"];
     [classArray addObject:@"SVWebViewVC"];
     [classArray addObject:@"SVHttpViewController"];
     [classArray addObject:@"TTTAttributeLabelVC"];

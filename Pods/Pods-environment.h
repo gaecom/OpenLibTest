@@ -84,6 +84,12 @@
 #define COCOAPODS_VERSION_MINOR_FlatUIKit 2
 #define COCOAPODS_VERSION_PATCH_FlatUIKit 0
 
+// JSMessagesViewController
+#define COCOAPODS_POD_AVAILABLE_JSMessagesViewController
+#define COCOAPODS_VERSION_MAJOR_JSMessagesViewController 2
+#define COCOAPODS_VERSION_MINOR_JSMessagesViewController 0
+#define COCOAPODS_VERSION_PATCH_JSMessagesViewController 2
+
 // MBProgressHUD
 #define COCOAPODS_POD_AVAILABLE_MBProgressHUD
 #define COCOAPODS_VERSION_MAJOR_MBProgressHUD 0
