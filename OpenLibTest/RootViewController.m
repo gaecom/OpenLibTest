@@ -12,6 +12,7 @@
 #import "TTTAttributeLabelVC.h"
 #import "SVHttpViewController.h"
 #import "JSMessagesDemoVC.h"
+#import "SVPullToRefreshVC.h"
 
 @interface RootViewController ()
 
@@ -51,6 +52,7 @@
     classArray = [[NSMutableArray alloc]initWithCapacity:10];
     
     //list items
+    [listArray addObject:@"SVPullToRefresh"];
     [listArray addObject:@"Reachablitity GCD ARC"];
     [listArray addObject:@"JSMessagesViewController"];
     [listArray addObject:@"SVWebViewController"];
@@ -61,6 +63,7 @@
 
     
     //class items
+    [classArray addObject:@"SVPullToRefreshVC"];
     [classArray addObject:@"ReachablitityGCDVC"];
     [classArray addObject:@"JSMessagesDemoVC"];
     [classArray addObject:@"SVWebViewVC"];

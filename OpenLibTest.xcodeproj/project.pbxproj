@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CC0B185917E9419300E8C3FB /* SVPullToRefreshVC.m in Sources */ = {isa = PBXBuildFile; fileRef = CC0B185817E9419300E8C3FB /* SVPullToRefreshVC.m */; };
 		CC1D677E17E18D100059A28A /* json_parser in Resources */ = {isa = PBXBuildFile; fileRef = CC1D677D17E18D100059A28A /* json_parser */; };
 		CC1D678317E1A62F0059A28A /* SVHttpViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CC1D678217E1A62F0059A28A /* SVHttpViewController.m */; };
 		CC1D678617E1B2880059A28A /* SVWebViewVC.m in Sources */ = {isa = PBXBuildFile; fileRef = CC1D678517E1B2870059A28A /* SVWebViewVC.m */; };
@@ -34,6 +35,8 @@
 /* Begin PBXFileReference section */
 		2C6538EE8BF146D790DE28A1 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		B2F3D3D3FC8C4F16BEE78075 /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = SOURCE_ROOT; };
+		CC0B185717E9419300E8C3FB /* SVPullToRefreshVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SVPullToRefreshVC.h; sourceTree = "<group>"; };
+		CC0B185817E9419300E8C3FB /* SVPullToRefreshVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SVPullToRefreshVC.m; sourceTree = "<group>"; };
 		CC1D677D17E18D100059A28A /* json_parser */ = {isa = PBXFileReference; lastKnownFileType = folder; path = json_parser; sourceTree = "<group>"; };
 		CC1D678117E1A62F0059A28A /* SVHttpViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SVHttpViewController.h; sourceTree = "<group>"; };
 		CC1D678217E1A62F0059A28A /* SVHttpViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SVHttpViewController.m; sourceTree = "<group>"; };
@@ -120,6 +123,8 @@
 				CC327FBC17DAF79D0021DA84 /* AppDelegate.m */,
 				CC327FC917DAF7F10021DA84 /* RootViewController.h */,
 				CC327FCA17DAF7F10021DA84 /* RootViewController.m */,
+				CC0B185717E9419300E8C3FB /* SVPullToRefreshVC.h */,
+				CC0B185817E9419300E8C3FB /* SVPullToRefreshVC.m */,
 				CC74E06D17E83C1C00ADDE10 /* ReachablitityGCDVC.h */,
 				CC74E06E17E83C1C00ADDE10 /* ReachablitityGCDVC.m */,
 				CC74E06617E8259200ADDE10 /* JSMessagesDemoVC.h */,
@@ -279,6 +284,7 @@
 				CC1D678617E1B2880059A28A /* SVWebViewVC.m in Sources */,
 				CC74E06817E8259200ADDE10 /* JSMessagesDemoVC.m in Sources */,
 				CC74E06F17E83C1C00ADDE10 /* ReachablitityGCDVC.m in Sources */,
+				CC0B185917E9419300E8C3FB /* SVPullToRefreshVC.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
