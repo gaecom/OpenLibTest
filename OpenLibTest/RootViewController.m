@@ -13,6 +13,7 @@
 #import "SVHttpViewController.h"
 #import "JSMessagesDemoVC.h"
 #import "SVPullToRefreshVC.h"
+#import "EGOPullToRefreshVC.h"
 
 @interface RootViewController ()
 
@@ -52,6 +53,7 @@
     classArray = [[NSMutableArray alloc]initWithCapacity:10];
     
     //list items
+    [listArray addObject:@"EGORefreshTableHeaderView"];
     [listArray addObject:@"SVPullToRefresh"];
     [listArray addObject:@"Reachablitity GCD ARC"];
     [listArray addObject:@"JSMessagesViewController"];
@@ -63,6 +65,7 @@
 
     
     //class items
+    [classArray addObject:@"EGOPullToRefreshVC"];
     [classArray addObject:@"SVPullToRefreshVC"];
     [classArray addObject:@"ReachablitityGCDVC"];
     [classArray addObject:@"JSMessagesDemoVC"];
