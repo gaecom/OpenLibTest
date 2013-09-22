@@ -54,6 +54,12 @@
 #define COCOAPODS_VERSION_MINOR_BlockAlertsAnd_ActionSheets_TableAlertView 0
 #define COCOAPODS_VERSION_PATCH_BlockAlertsAnd_ActionSheets_TableAlertView 6
 
+// CocoaAsyncSocket
+#define COCOAPODS_POD_AVAILABLE_CocoaAsyncSocket
+#define COCOAPODS_VERSION_MAJOR_CocoaAsyncSocket 7
+#define COCOAPODS_VERSION_MINOR_CocoaAsyncSocket 3
+#define COCOAPODS_VERSION_PATCH_CocoaAsyncSocket 1
+
 // EGOTableViewPullRefresh
 #define COCOAPODS_POD_AVAILABLE_EGOTableViewPullRefresh
 #define COCOAPODS_VERSION_MAJOR_EGOTableViewPullRefresh 0
@@ -93,14 +99,14 @@
 // MBProgressHUD
 #define COCOAPODS_POD_AVAILABLE_MBProgressHUD
 #define COCOAPODS_VERSION_MAJOR_MBProgressHUD 0
-#define COCOAPODS_VERSION_MINOR_MBProgressHUD 7
+#define COCOAPODS_VERSION_MINOR_MBProgressHUD 8
 #define COCOAPODS_VERSION_PATCH_MBProgressHUD 0
 
 // REMenu
 #define COCOAPODS_POD_AVAILABLE_REMenu
 #define COCOAPODS_VERSION_MAJOR_REMenu 1
-#define COCOAPODS_VERSION_MINOR_REMenu 4
-#define COCOAPODS_VERSION_PATCH_REMenu 2
+#define COCOAPODS_VERSION_MINOR_REMenu 5
+#define COCOAPODS_VERSION_PATCH_REMenu 0
 
 // Reachability
 #define COCOAPODS_POD_AVAILABLE_Reachability
@@ -129,7 +135,7 @@
 // SVWebViewController
 #define COCOAPODS_POD_AVAILABLE_SVWebViewController
 #define COCOAPODS_VERSION_MAJOR_SVWebViewController 0
-#define COCOAPODS_VERSION_MINOR_SVWebViewController 1
+#define COCOAPODS_VERSION_MINOR_SVWebViewController 2
 #define COCOAPODS_VERSION_PATCH_SVWebViewController 0
 
 // TTTAttributedLabel

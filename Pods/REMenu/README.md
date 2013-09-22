@@ -2,10 +2,11 @@
 
 Dropdown menu inspired by Vine.
 
-<img src="https://github.com/romaonthego/REMenu/raw/master/Screenshot.png" alt="REMenu Screenshot" width="320" height="480" />
+<img src="https://github.com/romaonthego/REMenu/raw/master/Screenshot.png" alt="REMenu Screenshot" width="400" height="568" />
+<img src="https://github.com/romaonthego/REMenu/raw/master/Demo.gif" alt="REMenu Screenshot" width="320" height="568" />
 
 ## Requirements
-* Xcode 4.5 or higher
+* Xcode 5 or higher
 * Apple LLVM compiler
 * iOS 5.0 or higher
 * ARC
@@ -40,7 +41,7 @@ Edit your Podfile and add REMenu:
 
 ``` bash
 platform :ios, '5.0'
-pod 'REMenu', '~> 1.4.2'
+pod 'REMenu', '~> 1.5'
 ```
 
 Install into your Xcode project:
@@ -157,6 +158,7 @@ You can customize the following properties of `REMenu`:
 @property (assign, readwrite, nonatomic) NSTimeInterval animationDuration;
 @property (assign, readwrite, nonatomic) NSTimeInterval bounceAnimationDuration;
 @property (assign, readwrite, nonatomic) REMenuImageAlignment imageAlignment;
+@property (assign, readwrite, nonatomic) BOOL appearsBeyondNavigationBar;
 @property (assign, readwrite, nonatomic) BOOL bounce;
 @property (copy, readwrite, nonatomic) void (^badgeLabelConfigurationBlock)(UILabel *badgeLabel, REMenuItem *item);
 ```

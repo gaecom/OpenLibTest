@@ -14,6 +14,7 @@
 #import "JSMessagesDemoVC.h"
 #import "SVPullToRefreshVC.h"
 #import "EGOPullToRefreshVC.h"
+#import "CocoaAsySocketVC.h"
 
 @interface RootViewController ()
 
@@ -53,6 +54,7 @@
     classArray = [[NSMutableArray alloc]initWithCapacity:10];
     
     //list items
+    [listArray addObject:@"GCDAsyncSocket"];
     [listArray addObject:@"EGORefreshTableHeaderView"];
     [listArray addObject:@"SVPullToRefresh"];
     [listArray addObject:@"Reachablitity GCD ARC"];
@@ -65,6 +67,7 @@
 
     
     //class items
+    [classArray addObject:@"CocoaAsySocketVC"];
     [classArray addObject:@"EGOPullToRefreshVC"];
     [classArray addObject:@"SVPullToRefreshVC"];
     [classArray addObject:@"ReachablitityGCDVC"];

@@ -30,6 +30,7 @@
 		CC9E22FF17DEB34300347D00 /* BlockAlertActionSheetVC.m in Sources */ = {isa = PBXBuildFile; fileRef = CC9E22FE17DEB34300347D00 /* BlockAlertActionSheetVC.m */; };
 		CC9E231C17DEBDED00347D00 /* alertBack.png in Resources */ = {isa = PBXBuildFile; fileRef = CC9E231B17DEBDED00347D00 /* alertBack.png */; };
 		CC9E232B17DEF37800347D00 /* TTTAttributeLabelVC.m in Sources */ = {isa = PBXBuildFile; fileRef = CC9E232A17DEF37700347D00 /* TTTAttributeLabelVC.m */; };
+		CCAFBDF317EEC961004CA503 /* CocoaAsySocketVC.m in Sources */ = {isa = PBXBuildFile; fileRef = CCAFBDF217EEC961004CA503 /* CocoaAsySocketVC.m */; };
 		CEF99E7487304EF6A297B2C7 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2C6538EE8BF146D790DE28A1 /* libPods.a */; };
 /* End PBXBuildFile section */
 
@@ -73,6 +74,8 @@
 		CC9E231B17DEBDED00347D00 /* alertBack.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = alertBack.png; sourceTree = "<group>"; };
 		CC9E232917DEF37700347D00 /* TTTAttributeLabelVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TTTAttributeLabelVC.h; sourceTree = "<group>"; };
 		CC9E232A17DEF37700347D00 /* TTTAttributeLabelVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TTTAttributeLabelVC.m; sourceTree = "<group>"; };
+		CCAFBDF117EEC961004CA503 /* CocoaAsySocketVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CocoaAsySocketVC.h; sourceTree = "<group>"; };
+		CCAFBDF217EEC961004CA503 /* CocoaAsySocketVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CocoaAsySocketVC.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -126,6 +129,8 @@
 				CC327FBC17DAF79D0021DA84 /* AppDelegate.m */,
 				CC327FC917DAF7F10021DA84 /* RootViewController.h */,
 				CC327FCA17DAF7F10021DA84 /* RootViewController.m */,
+				CCAFBDF117EEC961004CA503 /* CocoaAsySocketVC.h */,
+				CCAFBDF217EEC961004CA503 /* CocoaAsySocketVC.m */,
 				CC0B185A17E982D500E8C3FB /* EGOPullToRefreshVC.h */,
 				CC0B185B17E982D600E8C3FB /* EGOPullToRefreshVC.m */,
 				CC0B185717E9419300E8C3FB /* SVPullToRefreshVC.h */,
@@ -291,6 +296,7 @@
 				CC74E06F17E83C1C00ADDE10 /* ReachablitityGCDVC.m in Sources */,
 				CC0B185917E9419300E8C3FB /* SVPullToRefreshVC.m in Sources */,
 				CC0B185C17E982D600E8C3FB /* EGOPullToRefreshVC.m in Sources */,
+				CCAFBDF317EEC961004CA503 /* CocoaAsySocketVC.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

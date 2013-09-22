@@ -25,6 +25,7 @@
 
 #import <UIKit/UIKit.h>
 #import <QuartzCore/QuartzCore.h>
+#import "RECommonFunctions.h"
 #import "REMenuItem.h"
 #import "REMenuContainerView.h"
 
@@ -83,6 +84,7 @@ typedef NS_ENUM(NSInteger, REMenuImageAlignment) {
 @property (assign, readwrite, nonatomic) NSTimeInterval animationDuration;
 @property (assign, readwrite, nonatomic) NSTimeInterval bounceAnimationDuration;
 @property (assign, readwrite, nonatomic) REMenuImageAlignment imageAlignment;
+@property (assign, readwrite, nonatomic) BOOL appearsBehindNavigationBar;
 @property (assign, readwrite, nonatomic) BOOL bounce;
 @property (copy, readwrite, nonatomic) void (^badgeLabelConfigurationBlock)(UILabel *badgeLabel, REMenuItem *item);
 

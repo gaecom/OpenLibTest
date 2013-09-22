@@ -38,7 +38,8 @@
 - (void)viewWillAppear:(BOOL)animated {
     [super viewWillAppear:NO];
     
-    self.navigationBar.tintColor = self.toolbar.tintColor = self.barsTintColor;
+    self.webViewController.title = self.title;
+    self.navigationBar.tintColor = self.barsTintColor;
 }
 
 - (void)setAvailableActions:(SVWebViewControllerAvailableActions)newAvailableActions {
