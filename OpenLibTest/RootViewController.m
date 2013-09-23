@@ -15,6 +15,7 @@
 #import "SVPullToRefreshVC.h"
 #import "EGOPullToRefreshVC.h"
 #import "CocoaAsySocketVC.h"
+#import "SVProgressVC.h"
 
 @interface RootViewController ()
 
@@ -54,6 +55,7 @@
     classArray = [[NSMutableArray alloc]initWithCapacity:10];
     
     //list items
+    [listArray addObject:@"SVProgressHUD"];
     [listArray addObject:@"GCDAsyncSocket"];
     [listArray addObject:@"EGORefreshTableHeaderView"];
     [listArray addObject:@"SVPullToRefresh"];
@@ -67,6 +69,7 @@
 
     
     //class items
+    [classArray addObject:@"SVProgressVC"];
     [classArray addObject:@"CocoaAsySocketVC"];
     [classArray addObject:@"EGOPullToRefreshVC"];
     [classArray addObject:@"SVPullToRefreshVC"];
