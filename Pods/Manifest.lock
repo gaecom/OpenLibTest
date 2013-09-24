@@ -27,6 +27,7 @@ PODS:
   - MBProgressHUD (0.8)
   - Reachability (3.1.1)
   - REMenu (1.5)
+  - SAMCache (0.2.0)
   - SVHTTPRequest (0.5)
   - SVProgressHUD (0.9)
   - SVPullToRefresh (0.4.1)
@@ -45,6 +46,7 @@ DEPENDENCIES:
   - JSMessagesViewController (~> 2.0.2)
   - MBProgressHUD (~> 0.7)
   - REMenu (~> 1.4)
+  - SAMCache (~> 0.2.0)
   - SVHTTPRequest (~> 0.5)
   - SVProgressHUD (~> 0.9)
   - SVPullToRefresh (~> 0.4.1)
@@ -64,6 +66,7 @@ SPEC CHECKSUMS:
   MBProgressHUD: 2bbc6f470111daf7f3eaa4eb12b8cbf01c4c0622
   Reachability: 2be6bc2fd2bd31d97f5db33e75e4b29c79e95883
   REMenu: 6b0583aea38a1eae802d56ec9a0202dacbed3f88
+  SAMCache: 0e89f0947169946b59063989d57c71587271d4c8
   SVHTTPRequest: 608eb4519b496c54f7cf065961760c4cc25c7b12
   SVProgressHUD: 03d4845ec8e64591726428a08236c6a5489d45f8
   SVPullToRefresh: 61a0e4bd12bd6f8e3465909810b0fbeb1a28d5f2

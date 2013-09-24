@@ -17,5 +17,6 @@ pod 'JSMessagesViewController', '~> 2.0.2'
 pod 'SVPullToRefresh', '~> 0.4.1'
 pod 'EGOTableViewPullRefresh', '~> 0.1.0'
 pod 'CocoaAsyncSocket', '~> 7.3.1'
+pod 'SAMCache', '~> 0.2.0'
 
 
