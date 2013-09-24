@@ -144,6 +144,12 @@
 #define COCOAPODS_VERSION_MINOR_SVWebViewController 2
 #define COCOAPODS_VERSION_PATCH_SVWebViewController 0
 
+// TMCache
+#define COCOAPODS_POD_AVAILABLE_TMCache
+#define COCOAPODS_VERSION_MAJOR_TMCache 1
+#define COCOAPODS_VERSION_MINOR_TMCache 2
+#define COCOAPODS_VERSION_PATCH_TMCache 0
+
 // TTTAttributedLabel
 #define COCOAPODS_POD_AVAILABLE_TTTAttributedLabel
 #define COCOAPODS_VERSION_MAJOR_TTTAttributedLabel 1

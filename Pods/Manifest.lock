@@ -32,6 +32,7 @@ PODS:
   - SVProgressHUD (0.9)
   - SVPullToRefresh (0.4.1)
   - SVWebViewController (0.2)
+  - TMCache (1.2.0)
   - TTTAttributedLabel (1.7.1)
 
 DEPENDENCIES:
@@ -51,6 +52,7 @@ DEPENDENCIES:
   - SVProgressHUD (~> 0.9)
   - SVPullToRefresh (~> 0.4.1)
   - SVWebViewController (~> 0.1)
+  - TMCache (~> 1.2.0)
   - TTTAttributedLabel (~> 1.7.1)
 
 SPEC CHECKSUMS:
@@ -71,6 +73,7 @@ SPEC CHECKSUMS:
   SVProgressHUD: 03d4845ec8e64591726428a08236c6a5489d45f8
   SVPullToRefresh: 61a0e4bd12bd6f8e3465909810b0fbeb1a28d5f2
   SVWebViewController: 8b32a4b7017bca79799e0fdb0ffc4d47d0769db2
+  TMCache: 78eabf36d9993431243007da2e9ba58b462eb43e
   TTTAttributedLabel: e504133915a9b11de63cb470ffa2790383a3eb23
 
 COCOAPODS: 0.23.0

@@ -17,6 +17,7 @@
 #import "CocoaAsySocketVC.h"
 #import "SVProgressVC.h"
 #import "SAMCacheVC.h"
+#import "TMCacheVC.h"
 
 @interface RootViewController ()
 
@@ -56,6 +57,7 @@
     classArray = [[NSMutableArray alloc]initWithCapacity:10];
     
     //list items
+    [listArray addObject:@"TMCache(Disk OR Memory)"];
     [listArray addObject:@"SAMCache"];
     [listArray addObject:@"SVProgressHUD"];
     [listArray addObject:@"GCDAsyncSocket"];
@@ -71,6 +73,7 @@
 
     
     //class items
+    [classArray addObject:@"TMCacheVC"];
     [classArray addObject:@"SAMCacheVC"];
     [classArray addObject:@"SVProgressVC"];
     [classArray addObject:@"CocoaAsySocketVC"];
