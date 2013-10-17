@@ -32,6 +32,8 @@
 		CC9E231C17DEBDED00347D00 /* alertBack.png in Resources */ = {isa = PBXBuildFile; fileRef = CC9E231B17DEBDED00347D00 /* alertBack.png */; };
 		CC9E232B17DEF37800347D00 /* TTTAttributeLabelVC.m in Sources */ = {isa = PBXBuildFile; fileRef = CC9E232A17DEF37700347D00 /* TTTAttributeLabelVC.m */; };
 		CCAFBDF317EEC961004CA503 /* CocoaAsySocketVC.m in Sources */ = {isa = PBXBuildFile; fileRef = CCAFBDF217EEC961004CA503 /* CocoaAsySocketVC.m */; };
+		CCC40108180FDA0700A3E551 /* googleLL.png in Resources */ = {isa = PBXBuildFile; fileRef = CCC40107180FDA0700A3E551 /* googleLL.png */; };
+		CCC4010C180FDF7E00A3E551 /* Base64.m in Sources */ = {isa = PBXBuildFile; fileRef = CCC4010B180FDF7E00A3E551 /* Base64.m */; };
 		CCC5F0BA17F026900032033F /* SVProgressVC.m in Sources */ = {isa = PBXBuildFile; fileRef = CCC5F0B917F026900032033F /* SVProgressVC.m */; };
 		CEF99E7487304EF6A297B2C7 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2C6538EE8BF146D790DE28A1 /* libPods.a */; };
 /* End PBXBuildFile section */
@@ -81,6 +83,9 @@
 		CC9E232A17DEF37700347D00 /* TTTAttributeLabelVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TTTAttributeLabelVC.m; sourceTree = "<group>"; };
 		CCAFBDF117EEC961004CA503 /* CocoaAsySocketVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CocoaAsySocketVC.h; sourceTree = "<group>"; };
 		CCAFBDF217EEC961004CA503 /* CocoaAsySocketVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CocoaAsySocketVC.m; sourceTree = "<group>"; };
+		CCC40107180FDA0700A3E551 /* googleLL.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = googleLL.png; sourceTree = "<group>"; };
+		CCC4010A180FDF7E00A3E551 /* Base64.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Base64.h; sourceTree = "<group>"; };
+		CCC4010B180FDF7E00A3E551 /* Base64.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Base64.m; sourceTree = "<group>"; };
 		CCC5F0B817F026900032033F /* SVProgressVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SVProgressVC.h; sourceTree = "<group>"; };
 		CCC5F0B917F026900032033F /* SVProgressVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SVProgressVC.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -134,6 +139,7 @@
 			children = (
 				CC327FBB17DAF79D0021DA84 /* AppDelegate.h */,
 				CC327FBC17DAF79D0021DA84 /* AppDelegate.m */,
+				CCC40109180FDF7E00A3E551 /* Base64 */,
 				CC327FC917DAF7F10021DA84 /* RootViewController.h */,
 				CC327FCA17DAF7F10021DA84 /* RootViewController.m */,
 				CC9B534917F17C35009F9401 /* TMCacheVC.h */,
@@ -195,9 +201,19 @@
 			children = (
 				CC74E06917E827BA00ADDE10 /* demo-avatar-jobs.png */,
 				CC74E06A17E827BA00ADDE10 /* demo-avatar-woz.png */,
+				CCC40107180FDA0700A3E551 /* googleLL.png */,
 				CC9E231B17DEBDED00347D00 /* alertBack.png */,
 			);
 			name = Images;
+			sourceTree = "<group>";
+		};
+		CCC40109180FDF7E00A3E551 /* Base64 */ = {
+			isa = PBXGroup;
+			children = (
+				CCC4010A180FDF7E00A3E551 /* Base64.h */,
+				CCC4010B180FDF7E00A3E551 /* Base64.m */,
+			);
+			path = Base64;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -260,6 +276,7 @@
 				CC9E231C17DEBDED00347D00 /* alertBack.png in Resources */,
 				CC74E06B17E827BA00ADDE10 /* demo-avatar-jobs.png in Resources */,
 				CC74E06C17E827BA00ADDE10 /* demo-avatar-woz.png in Resources */,
+				CCC40108180FDA0700A3E551 /* googleLL.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -319,6 +336,7 @@
 				CCC5F0BA17F026900032033F /* SVProgressVC.m in Sources */,
 				CC9B534717F16AF9009F9401 /* SAMCacheVC.m in Sources */,
 				CC9B534B17F17C35009F9401 /* TMCacheVC.m in Sources */,
+				CCC4010C180FDF7E00A3E551 /* Base64.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

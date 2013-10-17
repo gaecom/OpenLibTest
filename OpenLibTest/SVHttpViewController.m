@@ -35,7 +35,63 @@
     [self.view addSubview:getRequest];
     
     
+    
+    UIButton *postRequest = [UIButton buttonWithType:UIButtonTypeRoundedRect];
+    postRequest.frame = CGRectMake(150, 10, 130, 35);
+    [postRequest setTitle:@"postRequest" forState:UIControlStateNormal];
+    [postRequest addTarget:self action:@selector(postRequestTaped) forControlEvents:UIControlEventTouchUpInside];
+    [self.view addSubview:postRequest];
+    
+    UIButton *postBees = [UIButton buttonWithType:UIButtonTypeRoundedRect];
+    postBees.frame = CGRectMake(10, 55, 130, 35);
+    [postBees setTitle:@"postBees" forState:UIControlStateNormal];
+    [postBees addTarget:self action:@selector(postBeesTaped) forControlEvents:UIControlEventTouchUpInside];
+    [self.view addSubview:postBees];
+    
+    
 }
+
+
+- (void)postBeesTaped
+{
+    //公司服务器测试用例
+    NSString *aURL = @"http://192.168.1.111:3000/bees";
+    UIImage *headImage = [UIImage imageNamed:@"googleLL.png"];
+    NSData *imageData = UIImagePNGRepresentation(headImage);
+    NSMutableDictionary *aDic = [NSMutableDictionary dictionary];
+    [aDic setObject:@"image2" forKey:@"name"];
+    [aDic setObject:@"cc" forKey:@"gender"];
+    [aDic setObject:@"412723198001038699" forKey:@"sn"];
+    [aDic setObject:@"13938026688" forKey:@"phone"];
+    [aDic setObject:@"email@4s44.com" forKey:@"email"];
+    [aDic setObject:@"kk123" forKey:@"password"];
+    [aDic setObject:imageData forKey:@"avatar"];
+    
+    
+    
+    [SVHTTPRequest POST:aURL parameters:aDic completion:^(id response, NSHTTPURLResponse *urlResponse, NSError *error) {
+        NSLog(@"line:(%d) class %s",__LINE__,__func__);
+        NSLog(@"line(%d): %@,%@,%@",__LINE__,response,urlResponse,error);
+        NSString *astr = [[NSString alloc]initWithData:response encoding:NSUTF8StringEncoding];
+        NSLog(@"line(%d): %@",__LINE__,astr);
+        NSLog(@"line(%d): %@ ",__LINE__,[NSString stringWithFormat:@"%d",[urlResponse statusCode]]);
+        NSLog(@"line(%d): %@",__LINE__,[urlResponse allHeaderFields]);
+        
+    }];
+}
+
+
+
+
+- (void)postRequestTaped
+{
+    NSString *aURL = @"http://192.168.1.136:8080/dishesorder/dishes/addsaleorder";
+    NSDictionary *aDic = [NSDictionary dictionary];
+    [SVHTTPRequest POST:aURL parameters:aDic completion:^(id response, NSHTTPURLResponse *urlResponse, NSError *error) {
+        NSLog(@"line(%d): %@",__LINE__,response);
+    }];
+}
+
 
 - (void)getRequestTaped
 {
