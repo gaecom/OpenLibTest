@@ -10,7 +10,7 @@
 #define COCOAPODS_POD_AVAILABLE_AFNetworking
 #define COCOAPODS_VERSION_MAJOR_AFNetworking 1
 #define COCOAPODS_VERSION_MINOR_AFNetworking 3
-#define COCOAPODS_VERSION_PATCH_AFNetworking 2
+#define COCOAPODS_VERSION_PATCH_AFNetworking 3
 
 // AKTabBarController
 #define COCOAPODS_POD_AVAILABLE_AKTabBarController
@@ -58,7 +58,7 @@
 #define COCOAPODS_POD_AVAILABLE_CocoaAsyncSocket
 #define COCOAPODS_VERSION_MAJOR_CocoaAsyncSocket 7
 #define COCOAPODS_VERSION_MINOR_CocoaAsyncSocket 3
-#define COCOAPODS_VERSION_PATCH_CocoaAsyncSocket 1
+#define COCOAPODS_VERSION_PATCH_CocoaAsyncSocket 2
 
 // EGOTableViewPullRefresh
 #define COCOAPODS_POD_AVAILABLE_EGOTableViewPullRefresh
@@ -90,6 +90,12 @@
 #define COCOAPODS_VERSION_MINOR_FlatUIKit 2
 #define COCOAPODS_VERSION_PATCH_FlatUIKit 0
 
+// InfinitePagingView
+#define COCOAPODS_POD_AVAILABLE_InfinitePagingView
+#define COCOAPODS_VERSION_MAJOR_InfinitePagingView 0
+#define COCOAPODS_VERSION_MINOR_InfinitePagingView 0
+#define COCOAPODS_VERSION_PATCH_InfinitePagingView 1
+
 // JSMessagesViewController
 #define COCOAPODS_POD_AVAILABLE_JSMessagesViewController
 #define COCOAPODS_VERSION_MAJOR_JSMessagesViewController 2
@@ -105,7 +111,7 @@
 // REMenu
 #define COCOAPODS_POD_AVAILABLE_REMenu
 #define COCOAPODS_VERSION_MAJOR_REMenu 1
-#define COCOAPODS_VERSION_MINOR_REMenu 5
+#define COCOAPODS_VERSION_MINOR_REMenu 6
 #define COCOAPODS_VERSION_PATCH_REMenu 0
 
 // Reachability

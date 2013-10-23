@@ -18,6 +18,7 @@
 #import "SVProgressVC.h"
 #import "SAMCacheVC.h"
 #import "TMCacheVC.h"
+#import "InfinitePageVC.h"
 
 @interface RootViewController ()
 
@@ -57,6 +58,7 @@
     classArray = [[NSMutableArray alloc]initWithCapacity:10];
     
     //list items
+    [listArray addObject:@"UIScrollview 无限循环"];
     [listArray addObject:@"TMCache(Disk OR Memory)"];
     [listArray addObject:@"SAMCache"];
     [listArray addObject:@"SVProgressHUD"];
@@ -73,6 +75,7 @@
 
     
     //class items
+    [classArray addObject:@"InfinitePageVC"];
     [classArray addObject:@"TMCacheVC"];
     [classArray addObject:@"SAMCacheVC"];
     [classArray addObject:@"SVProgressVC"];

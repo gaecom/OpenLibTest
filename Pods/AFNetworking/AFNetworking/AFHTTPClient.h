@@ -32,17 +32,17 @@
 
  Instances of `AFHTTPClient` may specify which types of requests it expects and should handle by registering HTTP operation classes for automatic parsing. Registered classes will determine whether they can handle a particular request, and then construct a request operation accordingly in `enqueueHTTPRequestOperationWithRequest:success:failure`.
 
- ## Subclassing Notes  子类
+ ## Subclassing Notes
 
  In most cases, one should create an `AFHTTPClient` subclass for each website or web application that your application communicates with. It is often useful, also, to define a class method that returns a singleton shared HTTP client in each subclass, that persists authentication credentials and other configuration across the entire application.
 
- ## Methods to Override 子类重写的方法
+ ## Methods to Override
 
  To change the behavior of all url request construction for an `AFHTTPClient` subclass, override `requestWithMethod:path:parameters`.
 
  To change the behavior of all request operation construction for an `AFHTTPClient` subclass, override `HTTPRequestOperationWithRequest:success:failure`.
 
- ## Default Headers  
+ ## Default Headers
 
  By default, `AFHTTPClient` sets the following HTTP headers:
 
@@ -118,7 +118,7 @@ typedef enum {
 @property (nonatomic, assign) NSStringEncoding stringEncoding;
 
 /**
- The `AFHTTPClientParameterEncoding` value corresponding to how parameters are encoded into a request body. This is `AFFormURLParameterEncoding` by default.
+ The `AFHTTPClientParameterEncoding` value corresponding to how parameters are encoded into a request body for request methods other than `GET`, `HEAD` or `DELETE`. This is `AFFormURLParameterEncoding` by default.
 
  @warning Some nested parameter structures, such as a keyed array of hashes containing inconsistent keys (i.e. `@{@"": @[@{@"a" : @(1)}, @{@"b" : @(2)}]}`), cannot be unambiguously represented in query strings. It is strongly recommended that an unambiguous encoding, such as `AFJSONParameterEncoding`, is used when posting complicated or nondeterministic parameter structures.
  */

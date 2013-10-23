@@ -17,6 +17,7 @@ OpenLibTest
 - SVProgressHUD
 - SAMCache
 - TMCache
+- InfinitePagingView
 - ...
 
 ### 运行首页截图
