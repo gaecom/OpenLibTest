@@ -19,6 +19,7 @@
 #import "SAMCacheVC.h"
 #import "TMCacheVC.h"
 #import "InfinitePageVC.h"
+#import "FPPopoverVC.h"
 
 @interface RootViewController ()
 
@@ -58,6 +59,7 @@
     classArray = [[NSMutableArray alloc]initWithCapacity:10];
     
     //list items
+    [listArray addObject:@"FPPopoverTest"];
     [listArray addObject:@"UIScrollview 无限循环"];
     [listArray addObject:@"TMCache(Disk OR Memory)"];
     [listArray addObject:@"SAMCache"];
@@ -75,6 +77,7 @@
 
     
     //class items
+    [classArray addObject:@"FPPopoverVC"];
     [classArray addObject:@"InfinitePageVC"];
     [classArray addObject:@"TMCacheVC"];
     [classArray addObject:@"SAMCacheVC"];

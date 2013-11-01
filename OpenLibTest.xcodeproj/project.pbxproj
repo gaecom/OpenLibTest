@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B4AE5594182402530063C209 /* FPPopoverVC.m in Sources */ = {isa = PBXBuildFile; fileRef = B4AE5593182402530063C209 /* FPPopoverVC.m */; };
 		CC0B185917E9419300E8C3FB /* SVPullToRefreshVC.m in Sources */ = {isa = PBXBuildFile; fileRef = CC0B185817E9419300E8C3FB /* SVPullToRefreshVC.m */; };
 		CC0B185C17E982D600E8C3FB /* EGOPullToRefreshVC.m in Sources */ = {isa = PBXBuildFile; fileRef = CC0B185B17E982D600E8C3FB /* EGOPullToRefreshVC.m */; };
 		CC1D678317E1A62F0059A28A /* SVHttpViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CC1D678217E1A62F0059A28A /* SVHttpViewController.m */; };
@@ -46,6 +47,8 @@
 /* Begin PBXFileReference section */
 		2C6538EE8BF146D790DE28A1 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		B2F3D3D3FC8C4F16BEE78075 /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = SOURCE_ROOT; };
+		B4AE5592182402530063C209 /* FPPopoverVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FPPopoverVC.h; sourceTree = "<group>"; };
+		B4AE5593182402530063C209 /* FPPopoverVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FPPopoverVC.m; sourceTree = "<group>"; };
 		CC0B185717E9419300E8C3FB /* SVPullToRefreshVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SVPullToRefreshVC.h; sourceTree = "<group>"; };
 		CC0B185817E9419300E8C3FB /* SVPullToRefreshVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SVPullToRefreshVC.m; sourceTree = "<group>"; };
 		CC0B185A17E982D500E8C3FB /* EGOPullToRefreshVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EGOPullToRefreshVC.h; sourceTree = "<group>"; };
@@ -153,8 +156,8 @@
 				CCC40109180FDF7E00A3E551 /* Base64 */,
 				CC327FC917DAF7F10021DA84 /* RootViewController.h */,
 				CC327FCA17DAF7F10021DA84 /* RootViewController.m */,
-				CC90405D1817AB41005C5341 /* InfinitePageVC.h */,
-				CC90405E1817AB41005C5341 /* InfinitePageVC.m */,
+				B4AE5592182402530063C209 /* FPPopoverVC.h */,
+				B4AE5593182402530063C209 /* FPPopoverVC.m */,
 				CC9B534817F16CAC009F9401 /* test ViewController */,
 				CC9E230017DEB88200347D00 /* Images */,
 				CC327FB317DAF79D0021DA84 /* Supporting Files */,
@@ -179,6 +182,8 @@
 		CC9B534817F16CAC009F9401 /* test ViewController */ = {
 			isa = PBXGroup;
 			children = (
+				CC90405D1817AB41005C5341 /* InfinitePageVC.h */,
+				CC90405E1817AB41005C5341 /* InfinitePageVC.m */,
 				CC9B534917F17C35009F9401 /* TMCacheVC.h */,
 				CC9B534A17F17C35009F9401 /* TMCacheVC.m */,
 				CC9B534517F16AF9009F9401 /* SAMCacheVC.h */,
@@ -359,6 +364,7 @@
 				CC9B534B17F17C35009F9401 /* TMCacheVC.m in Sources */,
 				CCC4010C180FDF7E00A3E551 /* Base64.m in Sources */,
 				CC90405F1817AB41005C5341 /* InfinitePageVC.m in Sources */,
+				B4AE5594182402530063C209 /* FPPopoverVC.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
