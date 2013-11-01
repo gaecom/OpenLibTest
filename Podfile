@@ -20,5 +20,8 @@ pod 'CocoaAsyncSocket', '~> 7.3.1'
 pod 'SAMCache', '~> 0.2.0'
 pod 'TMCache', '~> 1.2.0'
 pod 'InfinitePagingView', '~> 0.0.1'
+pod 'PopoverView', '~> 0.0.1'
+pod 'FPPopover', '~> 1.4.1'
+pod 'WEPopover', '~> 0.0.1'
 
 

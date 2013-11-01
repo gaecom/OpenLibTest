@@ -23,9 +23,11 @@ PODS:
   - FMDB/common (2.1)
   - FMDB/standard (2.1):
     - FMDB/common
+  - FPPopover (1.4.1)
   - InfinitePagingView (0.0.1)
   - JSMessagesViewController (2.0.2)
   - MBProgressHUD (0.8)
+  - PopoverView (0.0.1)
   - Reachability (3.1.1)
   - REMenu (1.6)
   - SAMCache (0.2.0)
@@ -35,6 +37,7 @@ PODS:
   - SVWebViewController (0.2)
   - TMCache (1.2.0)
   - TTTAttributedLabel (1.7.1)
+  - WEPopover (0.0.1)
 
 DEPENDENCIES:
   - AFNetworking (~> 1.3.2)
@@ -45,9 +48,11 @@ DEPENDENCIES:
   - EGOTableViewPullRefresh (~> 0.1.0)
   - FlatUIKit (~> 1.2)
   - FMDB (~> 2.1)
+  - FPPopover (~> 1.4.1)
   - InfinitePagingView (~> 0.0.1)
   - JSMessagesViewController (~> 2.0.2)
   - MBProgressHUD (~> 0.7)
+  - PopoverView (~> 0.0.1)
   - REMenu (~> 1.4)
   - SAMCache (~> 0.2.0)
   - SVHTTPRequest (~> 0.5)
@@ -56,6 +61,7 @@ DEPENDENCIES:
   - SVWebViewController (~> 0.1)
   - TMCache (~> 1.2.0)
   - TTTAttributedLabel (~> 1.7.1)
+  - WEPopover (~> 0.0.1)
 
 SPEC CHECKSUMS:
   AFNetworking: 0700ec7a58c36ad217173e167f6e4df7270df66b
@@ -66,9 +72,11 @@ SPEC CHECKSUMS:
   EGOTableViewPullRefresh: 6ba637ce6dd3186b503d2d91e6b3a08a26d650f5
   FlatUIKit: 43b2acaa6f4ef57539b51b00e4ce62d506e33e11
   FMDB: 3fd5aaf632ca4ed39e3f101e0398504e6d5b0918
+  FPPopover: 0289b796c031d8f27bd221d93d282ffe23619893
   InfinitePagingView: 298d0498e0fb3e85ff1da70e460203316d1a53fa
   JSMessagesViewController: ce2ebb6b69dafbbeca78de3477e624802247a6d2
   MBProgressHUD: 2bbc6f470111daf7f3eaa4eb12b8cbf01c4c0622
+  PopoverView: 571c17ebd5f0c20570e1f12ca1800bd56e1b6dc3
   Reachability: 2be6bc2fd2bd31d97f5db33e75e4b29c79e95883
   REMenu: 65aee777063bc70210d8257d4a935a4fb98cad52
   SAMCache: 0e89f0947169946b59063989d57c71587271d4c8
@@ -78,5 +86,6 @@ SPEC CHECKSUMS:
   SVWebViewController: 8b32a4b7017bca79799e0fdb0ffc4d47d0769db2
   TMCache: 4b05e1b124d9f7e8d449640e059cff4cda17ed27
   TTTAttributedLabel: e504133915a9b11de63cb470ffa2790383a3eb23
+  WEPopover: 119fe521e9c35069c5ec63dfc14334ca321275b8
 
 COCOAPODS: 0.26.2
