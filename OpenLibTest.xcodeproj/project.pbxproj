@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		B4AE5594182402530063C209 /* FPPopoverVC.m in Sources */ = {isa = PBXBuildFile; fileRef = B4AE5593182402530063C209 /* FPPopoverVC.m */; };
+		B4AE5597182407E00063C209 /* PopoverViewTestVC.m in Sources */ = {isa = PBXBuildFile; fileRef = B4AE5596182407E00063C209 /* PopoverViewTestVC.m */; };
 		CC0B185917E9419300E8C3FB /* SVPullToRefreshVC.m in Sources */ = {isa = PBXBuildFile; fileRef = CC0B185817E9419300E8C3FB /* SVPullToRefreshVC.m */; };
 		CC0B185C17E982D600E8C3FB /* EGOPullToRefreshVC.m in Sources */ = {isa = PBXBuildFile; fileRef = CC0B185B17E982D600E8C3FB /* EGOPullToRefreshVC.m */; };
 		CC1D678317E1A62F0059A28A /* SVHttpViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CC1D678217E1A62F0059A28A /* SVHttpViewController.m */; };
@@ -49,6 +50,8 @@
 		B2F3D3D3FC8C4F16BEE78075 /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = SOURCE_ROOT; };
 		B4AE5592182402530063C209 /* FPPopoverVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FPPopoverVC.h; sourceTree = "<group>"; };
 		B4AE5593182402530063C209 /* FPPopoverVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FPPopoverVC.m; sourceTree = "<group>"; };
+		B4AE5595182407E00063C209 /* PopoverViewTestVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PopoverViewTestVC.h; sourceTree = "<group>"; };
+		B4AE5596182407E00063C209 /* PopoverViewTestVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PopoverViewTestVC.m; sourceTree = "<group>"; };
 		CC0B185717E9419300E8C3FB /* SVPullToRefreshVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SVPullToRefreshVC.h; sourceTree = "<group>"; };
 		CC0B185817E9419300E8C3FB /* SVPullToRefreshVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SVPullToRefreshVC.m; sourceTree = "<group>"; };
 		CC0B185A17E982D500E8C3FB /* EGOPullToRefreshVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EGOPullToRefreshVC.h; sourceTree = "<group>"; };
@@ -156,8 +159,8 @@
 				CCC40109180FDF7E00A3E551 /* Base64 */,
 				CC327FC917DAF7F10021DA84 /* RootViewController.h */,
 				CC327FCA17DAF7F10021DA84 /* RootViewController.m */,
-				B4AE5592182402530063C209 /* FPPopoverVC.h */,
-				B4AE5593182402530063C209 /* FPPopoverVC.m */,
+				B4AE5595182407E00063C209 /* PopoverViewTestVC.h */,
+				B4AE5596182407E00063C209 /* PopoverViewTestVC.m */,
 				CC9B534817F16CAC009F9401 /* test ViewController */,
 				CC9E230017DEB88200347D00 /* Images */,
 				CC327FB317DAF79D0021DA84 /* Supporting Files */,
@@ -182,6 +185,8 @@
 		CC9B534817F16CAC009F9401 /* test ViewController */ = {
 			isa = PBXGroup;
 			children = (
+				B4AE5592182402530063C209 /* FPPopoverVC.h */,
+				B4AE5593182402530063C209 /* FPPopoverVC.m */,
 				CC90405D1817AB41005C5341 /* InfinitePageVC.h */,
 				CC90405E1817AB41005C5341 /* InfinitePageVC.m */,
 				CC9B534917F17C35009F9401 /* TMCacheVC.h */,
@@ -365,6 +370,7 @@
 				CCC4010C180FDF7E00A3E551 /* Base64.m in Sources */,
 				CC90405F1817AB41005C5341 /* InfinitePageVC.m in Sources */,
 				B4AE5594182402530063C209 /* FPPopoverVC.m in Sources */,
+				B4AE5597182407E00063C209 /* PopoverViewTestVC.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
