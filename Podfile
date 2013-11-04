@@ -22,6 +22,5 @@ pod 'TMCache', '~> 1.2.0'
 pod 'InfinitePagingView', '~> 0.0.1'
 pod 'PopoverView', '~> 0.0.1'
 pod 'FPPopover', '~> 1.4.1'
-pod 'WEPopover', '~> 0.0.1'
 
 

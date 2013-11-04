@@ -29,8 +29,6 @@ install_resource()
       echo "xcrun momc \"${PODS_ROOT}/$1\" \"${CONFIGURATION_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/`basename "$1" .xcdatamodeld`.momd\""
       xcrun momc "${PODS_ROOT}/$1" "${CONFIGURATION_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/`basename "$1" .xcdatamodeld`.momd"
       ;;
-    *.xcassets)
-      ;;
     /*)
       echo "$1"
       echo "$1" >> "$RESOURCES_TO_COPY"
@@ -126,30 +124,9 @@ install_resource "JSMessagesViewController/JSMessagesTableViewController/Resourc
 install_resource "JSMessagesViewController/JSMessagesTableViewController/Resources/Sounds/messageSent.aiff"
 install_resource "SVProgressHUD/SVProgressHUD/SVProgressHUD.bundle"
 install_resource "SVWebViewController/SVWebViewController/SVWebViewController.bundle"
-install_resource "WEPopover/popoverArrowDown.png"
-install_resource "WEPopover/popoverArrowDown@2x.png"
-install_resource "WEPopover/popoverArrowDownSimple.png"
-install_resource "WEPopover/popoverArrowLeft.png"
-install_resource "WEPopover/popoverArrowLeft@2x.png"
-install_resource "WEPopover/popoverArrowLeftSimple.png"
-install_resource "WEPopover/popoverArrowRight.png"
-install_resource "WEPopover/popoverArrowRight@2x.png"
-install_resource "WEPopover/popoverArrowRightSimple.png"
-install_resource "WEPopover/popoverArrowUp.png"
-install_resource "WEPopover/popoverArrowUp@2x.png"
-install_resource "WEPopover/popoverArrowUpSimple.png"
-install_resource "WEPopover/popoverBg.png"
-install_resource "WEPopover/popoverBg@2x.png"
-install_resource "WEPopover/popoverBgSimple.png"
 
 rsync -avr --copy-links --no-relative --exclude '*/.svn/*' --files-from="$RESOURCES_TO_COPY" / "${CONFIGURATION_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}"
 if [[ "${ACTION}" == "install" ]]; then
   rsync -avr --copy-links --no-relative --exclude '*/.svn/*' --files-from="$RESOURCES_TO_COPY" / "${INSTALL_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}"
 fi
 rm -f "$RESOURCES_TO_COPY"
-
-if [ `find . -name '*.xcassets' | wc -l` -ne 0 ]
-then
-  DEVICE=`if [ "${TARGETED_DEVICE_FAMILY}" -eq 1 ]; then echo "iphone"; else echo "ipad"; fi`
-  find "${PWD}" -name "*.xcassets" -print0 | xargs -0 actool --output-format human-readable-text --notices --warnings --platform "${PLATFORM_NAME}" --minimum-deployment-target "${IPHONEOS_DEPLOYMENT_TARGET}" --target-device "${DEVICE}" --compress-pngs --compile "${BUILT_PRODUCTS_DIR}/${PRODUCT_NAME}.${WRAPPER_EXTENSION}"
-fi
