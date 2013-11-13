@@ -156,6 +156,12 @@
 #define COCOAPODS_VERSION_MINOR_SVPullToRefresh 4
 #define COCOAPODS_VERSION_PATCH_SVPullToRefresh 1
 
+// SVSegmentedControl
+#define COCOAPODS_POD_AVAILABLE_SVSegmentedControl
+#define COCOAPODS_VERSION_MAJOR_SVSegmentedControl 0
+#define COCOAPODS_VERSION_MINOR_SVSegmentedControl 2
+#define COCOAPODS_VERSION_PATCH_SVSegmentedControl 0
+
 // SVWebViewController
 #define COCOAPODS_POD_AVAILABLE_SVWebViewController
 #define COCOAPODS_VERSION_MAJOR_SVWebViewController 0
@@ -172,5 +178,5 @@
 #define COCOAPODS_POD_AVAILABLE_TTTAttributedLabel
 #define COCOAPODS_VERSION_MAJOR_TTTAttributedLabel 1
 #define COCOAPODS_VERSION_MINOR_TTTAttributedLabel 7
-#define COCOAPODS_VERSION_PATCH_TTTAttributedLabel 1
+#define COCOAPODS_VERSION_PATCH_TTTAttributedLabel 2
 

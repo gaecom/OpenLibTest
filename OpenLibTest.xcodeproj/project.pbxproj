@@ -42,6 +42,7 @@
 		CCC40108180FDA0700A3E551 /* googleLL.png in Resources */ = {isa = PBXBuildFile; fileRef = CCC40107180FDA0700A3E551 /* googleLL.png */; };
 		CCC4010C180FDF7E00A3E551 /* Base64.m in Sources */ = {isa = PBXBuildFile; fileRef = CCC4010B180FDF7E00A3E551 /* Base64.m */; };
 		CCC5F0BA17F026900032033F /* SVProgressVC.m in Sources */ = {isa = PBXBuildFile; fileRef = CCC5F0B917F026900032033F /* SVProgressVC.m */; };
+		CCC90F34183320E300ECC4DD /* SVSegmentVC.m in Sources */ = {isa = PBXBuildFile; fileRef = CCC90F33183320E300ECC4DD /* SVSegmentVC.m */; };
 		CEF99E7487304EF6A297B2C7 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2C6538EE8BF146D790DE28A1 /* libPods.a */; };
 /* End PBXBuildFile section */
 
@@ -105,6 +106,8 @@
 		CCC4010B180FDF7E00A3E551 /* Base64.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Base64.m; sourceTree = "<group>"; };
 		CCC5F0B817F026900032033F /* SVProgressVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SVProgressVC.h; sourceTree = "<group>"; };
 		CCC5F0B917F026900032033F /* SVProgressVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SVProgressVC.m; sourceTree = "<group>"; };
+		CCC90F32183320E300ECC4DD /* SVSegmentVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SVSegmentVC.h; sourceTree = "<group>"; };
+		CCC90F33183320E300ECC4DD /* SVSegmentVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SVSegmentVC.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -159,8 +162,8 @@
 				CCC40109180FDF7E00A3E551 /* Base64 */,
 				CC327FC917DAF7F10021DA84 /* RootViewController.h */,
 				CC327FCA17DAF7F10021DA84 /* RootViewController.m */,
-				B4AE5595182407E00063C209 /* PopoverViewTestVC.h */,
-				B4AE5596182407E00063C209 /* PopoverViewTestVC.m */,
+				CCC90F32183320E300ECC4DD /* SVSegmentVC.h */,
+				CCC90F33183320E300ECC4DD /* SVSegmentVC.m */,
 				CC9B534817F16CAC009F9401 /* test ViewController */,
 				CC9E230017DEB88200347D00 /* Images */,
 				CC327FB317DAF79D0021DA84 /* Supporting Files */,
@@ -185,6 +188,8 @@
 		CC9B534817F16CAC009F9401 /* test ViewController */ = {
 			isa = PBXGroup;
 			children = (
+				B4AE5595182407E00063C209 /* PopoverViewTestVC.h */,
+				B4AE5596182407E00063C209 /* PopoverViewTestVC.m */,
 				B4AE5592182402530063C209 /* FPPopoverVC.h */,
 				B4AE5593182402530063C209 /* FPPopoverVC.m */,
 				CC90405D1817AB41005C5341 /* InfinitePageVC.h */,
@@ -371,6 +376,7 @@
 				CC90405F1817AB41005C5341 /* InfinitePageVC.m in Sources */,
 				B4AE5594182402530063C209 /* FPPopoverVC.m in Sources */,
 				B4AE5597182407E00063C209 /* PopoverViewTestVC.m in Sources */,
+				CCC90F34183320E300ECC4DD /* SVSegmentVC.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

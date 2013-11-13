@@ -21,6 +21,7 @@
 #import "InfinitePageVC.h"
 #import "FPPopoverVC.h"
 #import "PopoverViewTestVC.h"
+#import "SVSegmentVC.h"
 
 @interface RootViewController ()
 
@@ -60,6 +61,7 @@
     classArray = [[NSMutableArray alloc]initWithCapacity:10];
     
     //list items
+    [listArray addObject:@"SVSegmentControl"];
     [listArray addObject:@"PopoverViewTest"];
     [listArray addObject:@"FPPopoverTest"];
     [listArray addObject:@"UIScrollview 无限循环"];
@@ -79,6 +81,7 @@
 
     
     //class items
+    [classArray addObject:@"SVSegmentVC"];
     [classArray addObject:@"PopoverViewTestVC"];
     [classArray addObject:@"FPPopoverVC"];
     [classArray addObject:@"InfinitePageVC"];

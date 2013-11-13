@@ -77,11 +77,7 @@ extern NSString * const kTTTBackgroundCornerRadiusAttributeName;
  For the most part, `TTTAttributedLabel` behaves just like `UILabel`. The following are notable exceptions, in which `TTTAttributedLabel` properties may act differently:
  
  - `text` - This property now takes an `id` type argument, which can either be a kind of `NSString` or `NSAttributedString` (mutable or immutable in both cases)
-     
-    text 可以是 NSString 也可以是 NSAttributedString
- 
  - `lineBreakMode` - This property displays only the first line when the value is `UILineBreakModeHeadTruncation`, `UILineBreakModeTailTruncation`, or `UILineBreakModeMiddleTruncation`
- 
  - `adjustsFontsizeToFitWidth` - Supported in iOS 5 and greater, this property is effective for any value of `numberOfLines` greater than zero. In iOS 4, setting `numberOfLines` to a value greater than 1 with `adjustsFontSizeToFitWidth` set to `YES` may cause `sizeToFit` to execute indefinitely.
  
  Any properties affecting text or paragraph styling, such as `firstLineIndent` will only apply when text is set with an `NSString`. If the text is set with an `NSAttributedString`, these properties will not apply.
@@ -110,11 +106,17 @@ extern NSString * const kTTTBackgroundCornerRadiusAttributeName;
 ///--------------------------------------------
 
 /**
- A bitmask of `NSTextCheckingType` which are used to automatically detect links in the label text.
- 
- @warning You must specify `dataDetectorTypes` before setting the `text`, with either `setText:` or `setText:afterInheritingLabelAttributesAndConfiguringWithBlock:`.
+ @deprecated Use `enabledTextCheckingTypes` property instead.
  */
 @property (nonatomic, assign) NSTextCheckingTypes dataDetectorTypes;
+//DEPRECATED_MSG_ATTRIBUTE("Use enabledTextCheckingTypes property instead.");
+
+/**
+ A bitmask of `NSTextCheckingType` which are used to automatically detect links in the label text.
+
+ @warning You must specify `enabledTextCheckingTypes` before setting the `text`, with either `setText:` or `setText:afterInheritingLabelAttributesAndConfiguringWithBlock:`.
+ */
+@property (nonatomic, assign) NSTextCheckingTypes enabledTextCheckingTypes;
 
 /**
  An array of `NSTextCheckingResult` objects for links detected or manually added to the label text.
@@ -194,12 +196,21 @@ extern NSString * const kTTTBackgroundCornerRadiusAttributeName;
  */
 @property (nonatomic, assign) TTTAttributedLabelVerticalAlignment verticalAlignment;
 
+///--------------------------------------------
+/// @name Accessing Truncation Token Appearance
+///--------------------------------------------
+
 /**
  The truncation token that appears at the end of the truncated line. `nil` by default.
 
  @discussion When truncation is enabled for the label, by setting `lineBreakMode` to either `UILineBreakModeHeadTruncation`, `UILineBreakModeTailTruncation`, or `UILineBreakModeMiddleTruncation`, the token used to terminate the truncated line will be `truncationTokenString` if defined, otherwise the Unicode Character 'HORIZONTAL ELLIPSIS' (U+2026).
  */
 @property (nonatomic, strong) NSString *truncationTokenString;
+
+/**
+ The attributes to apply to the truncation token at the end of a truncated line. If unspecified, attributes will be inherited from the preceding character.
+ */
+@property (nonatomic, strong) NSDictionary *truncationTokenStringAttributes;
 
 ///----------------------------------
 /// @name Setting the Text Attributes

@@ -34,9 +34,10 @@ PODS:
   - SVHTTPRequest (0.5)
   - SVProgressHUD (0.9)
   - SVPullToRefresh (0.4.1)
+  - SVSegmentedControl (0.2)
   - SVWebViewController (0.2)
   - TMCache (1.2.0)
-  - TTTAttributedLabel (1.7.1)
+  - TTTAttributedLabel (1.7.2)
 
 DEPENDENCIES:
   - AFNetworking (~> 1.3.2)
@@ -57,6 +58,7 @@ DEPENDENCIES:
   - SVHTTPRequest (~> 0.5)
   - SVProgressHUD (~> 0.9)
   - SVPullToRefresh (~> 0.4.1)
+  - SVSegmentedControl (~> 0.2)
   - SVWebViewController (~> 0.1)
   - TMCache (~> 1.2.0)
   - TTTAttributedLabel (~> 1.7.1)
@@ -81,8 +83,9 @@ SPEC CHECKSUMS:
   SVHTTPRequest: 608eb4519b496c54f7cf065961760c4cc25c7b12
   SVProgressHUD: 03d4845ec8e64591726428a08236c6a5489d45f8
   SVPullToRefresh: 61a0e4bd12bd6f8e3465909810b0fbeb1a28d5f2
+  SVSegmentedControl: e874fc56c2a1efb9f597ddf0908101393f53fe96
   SVWebViewController: 8b32a4b7017bca79799e0fdb0ffc4d47d0769db2
   TMCache: 4b05e1b124d9f7e8d449640e059cff4cda17ed27
-  TTTAttributedLabel: e504133915a9b11de63cb470ffa2790383a3eb23
+  TTTAttributedLabel: 05705051ca22a48f6ca72b64f301516e357b6814
 
 COCOAPODS: 0.27.1
