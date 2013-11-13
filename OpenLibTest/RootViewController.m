@@ -22,6 +22,7 @@
 #import "FPPopoverVC.h"
 #import "PopoverViewTestVC.h"
 #import "SVSegmentVC.h"
+#import "REMenuVC.h"
 
 @interface RootViewController ()
 
@@ -61,6 +62,7 @@
     classArray = [[NSMutableArray alloc]initWithCapacity:10];
     
     //list items
+    [listArray addObject:@"REMenuTest"];
     [listArray addObject:@"SVSegmentControl"];
     [listArray addObject:@"PopoverViewTest"];
     [listArray addObject:@"FPPopoverTest"];
@@ -81,6 +83,7 @@
 
     
     //class items
+    [classArray addObject:@"REMenuVC"];
     [classArray addObject:@"SVSegmentVC"];
     [classArray addObject:@"PopoverViewTestVC"];
     [classArray addObject:@"FPPopoverVC"];
