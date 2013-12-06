@@ -52,6 +52,7 @@
 		CCC90F461833280800ECC4DD /* Icon_Home@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CCC90F3E1833280800ECC4DD /* Icon_Home@2x.png */; };
 		CCC90F471833280800ECC4DD /* Icon_Profile.png in Resources */ = {isa = PBXBuildFile; fileRef = CCC90F3F1833280800ECC4DD /* Icon_Profile.png */; };
 		CCC90F481833280800ECC4DD /* Icon_Profile@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CCC90F401833280800ECC4DD /* Icon_Profile@2x.png */; };
+		CEAF3B8F1851C5CE00486D9D /* KGStatusBarVC.m in Sources */ = {isa = PBXBuildFile; fileRef = CEAF3B8E1851C5CE00486D9D /* KGStatusBarVC.m */; };
 		CEF99E7487304EF6A297B2C7 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2C6538EE8BF146D790DE28A1 /* libPods.a */; };
 /* End PBXBuildFile section */
 
@@ -127,6 +128,8 @@
 		CCC90F3E1833280800ECC4DD /* Icon_Home@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon_Home@2x.png"; sourceTree = "<group>"; };
 		CCC90F3F1833280800ECC4DD /* Icon_Profile.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon_Profile.png; sourceTree = "<group>"; };
 		CCC90F401833280800ECC4DD /* Icon_Profile@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon_Profile@2x.png"; sourceTree = "<group>"; };
+		CEAF3B8D1851C5CE00486D9D /* KGStatusBarVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KGStatusBarVC.h; sourceTree = "<group>"; };
+		CEAF3B8E1851C5CE00486D9D /* KGStatusBarVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KGStatusBarVC.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -181,6 +184,8 @@
 				CCC40109180FDF7E00A3E551 /* Base64 */,
 				CC327FC917DAF7F10021DA84 /* RootViewController.h */,
 				CC327FCA17DAF7F10021DA84 /* RootViewController.m */,
+				CEAF3B8D1851C5CE00486D9D /* KGStatusBarVC.h */,
+				CEAF3B8E1851C5CE00486D9D /* KGStatusBarVC.m */,
 				CCC90F351833258E00ECC4DD /* REMenuVC.h */,
 				CCC90F361833258E00ECC4DD /* REMenuVC.m */,
 				CC9B534817F16CAC009F9401 /* test ViewController */,
@@ -423,6 +428,7 @@
 				B4AE5597182407E00063C209 /* PopoverViewTestVC.m in Sources */,
 				CCC90F34183320E300ECC4DD /* SVSegmentVC.m in Sources */,
 				CCC90F371833258E00ECC4DD /* REMenuVC.m in Sources */,
+				CEAF3B8F1851C5CE00486D9D /* KGStatusBarVC.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

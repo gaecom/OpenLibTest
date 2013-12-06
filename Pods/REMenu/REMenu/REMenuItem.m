@@ -35,73 +35,80 @@
 
 - (id)initWithTitle:(NSString *)title image:(UIImage *)image highlightedImage:(UIImage *)higlightedImage action:(void (^)(REMenuItem *item))action
 {
-    if ((self = [super init])) {
-        self.title = title;
-        self.image = image;
-        self.higlightedImage = higlightedImage;
-        self.action = action;
-    }
+    self = [super init];
+    if (!self)
+        return nil;
+    
+    self.title = title;
+    self.image = image;
+    self.higlightedImage = higlightedImage;
+    self.action = action;
+    
     return self;
 }
 
 - (id)initWithTitle:(NSString *)title subtitle:(NSString *)subtitle image:(UIImage *)image highlightedImage:(UIImage *)higlightedImage action:(void (^)(REMenuItem *item))action
 {
-    if ((self = [super init])) {
-        self.title = title;
-        self.subtitle = subtitle;
-        self.image = image;
-        self.higlightedImage = higlightedImage;
-        self.action = action;
-    }
+    self = [super init];
+    if (!self)
+        return nil;
+    
+    self.title = title;
+    self.subtitle = subtitle;
+    self.image = image;
+    self.higlightedImage = higlightedImage;
+    self.action = action;
+    
     return self;
 }
 
 - (id)initWithCustomView:(UIView *)customView action:(void (^)(REMenuItem *item))action
 {
-    if ((self = [super init])) {
-        self.customView = customView;
-        self.action = action;
-    }
+    self = [super init];
+    if (!self)
+        return nil;
+    
+    self.customView = customView;
+    self.action = action;
+    
     return self;
 }
 
 - (id)initWithCustomView:(UIView *)customView
 {
-    if ((self = [super init])) {
-        self.customView = customView;
-    }
+    self = [super init];
+    if (!self)
+        return nil;
+    
+    self.customView = customView;
+    
     return self;
 }
 
 - (NSString *)description
 {
-    return [NSString stringWithFormat:@"<title: %@; subtitle: %@; tag: %li>", self.title, self.subtitle, (long)self.tag];
+    return [NSString stringWithFormat:@"<title: %@; subtitle: %@; tag: %i>", self.title, self.subtitle, self.tag];
 }
 
 - (void)setTitle:(NSString *)title
 {
     _title = title;
-    self.itemView.titleLabel.text = title;
-    self.itemView.accessibilityLabel = title;
+    _itemView.titleLabel.text = title;
+    _itemView.accessibilityLabel = title;
 }
 
 - (void)setSubtitle:(NSString *)subtitle
 {
     _subtitle = subtitle;
-    self.itemView.subtitleLabel.text = subtitle;
-    self.itemView.accessibilityLabel = [NSString stringWithFormat:@"%@, %@", self.itemView.titleLabel.text, subtitle];
+    _itemView.subtitleLabel.text = subtitle;
+    _itemView.accessibilityLabel = [NSString stringWithFormat:@"%@, %@", _itemView.titleLabel.text, subtitle];
 }
 
 - (void)setImage:(UIImage *)image
 {
     _image = image;
-    self.itemView.imageView.image = image;
+    _itemView.imageView.image = image;
 }
 
-- (void)setHiglightedImage:(UIImage *)higlightedImage
-{
-    _higlightedImage = higlightedImage;
-    self.itemView.imageView.highlightedImage = higlightedImage;
-}
 
 @end

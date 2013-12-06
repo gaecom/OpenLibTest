@@ -27,7 +27,6 @@
 
 @interface REMenuContainerView : UIView
 
-@property (strong, readwrite, nonatomic) UINavigationBar *navigationBar;
-@property (assign, readwrite, nonatomic) BOOL appearsBehindNavigationBar;
+@property (strong, nonatomic) UINavigationBar *navigationBar;
 
 @end

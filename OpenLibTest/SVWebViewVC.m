@@ -73,7 +73,7 @@
 	NSURL *URL = [NSURL URLWithString:@"http://3g.tech.qq.com"];
 	SVModalWebViewController *webViewController = [[SVModalWebViewController alloc] initWithURL:URL];
 	webViewController.modalPresentationStyle = UIModalPresentationPageSheet;
-    webViewController.availableActions = SVWebViewControllerAvailableActionsOpenInSafari|SVWebViewControllerAvailableActionsOpenInChrome|SVWebViewControllerAvailableActionsCopyLink|SVWebViewControllerAvailableActionsMailLink;
+    webViewController.availableActions = SVWebViewControllerAvailableActionsOpenInSafari|SVWebViewControllerAvailableActionsCopyLink|SVWebViewControllerAvailableActionsMailLink;
 	[self presentModalViewController:webViewController animated:YES];
 }
 

@@ -10,7 +10,7 @@
 #define COCOAPODS_POD_AVAILABLE_AFNetworking
 #define COCOAPODS_VERSION_MAJOR_AFNetworking 1
 #define COCOAPODS_VERSION_MINOR_AFNetworking 3
-#define COCOAPODS_VERSION_PATCH_AFNetworking 3
+#define COCOAPODS_VERSION_PATCH_AFNetworking 2
 
 // AKTabBarController
 #define COCOAPODS_POD_AVAILABLE_AKTabBarController
@@ -58,7 +58,7 @@
 #define COCOAPODS_POD_AVAILABLE_CocoaAsyncSocket
 #define COCOAPODS_VERSION_MAJOR_CocoaAsyncSocket 7
 #define COCOAPODS_VERSION_MINOR_CocoaAsyncSocket 3
-#define COCOAPODS_VERSION_PATCH_CocoaAsyncSocket 2
+#define COCOAPODS_VERSION_PATCH_CocoaAsyncSocket 1
 
 // EGOTableViewPullRefresh
 #define COCOAPODS_POD_AVAILABLE_EGOTableViewPullRefresh
@@ -108,10 +108,16 @@
 #define COCOAPODS_VERSION_MINOR_JSMessagesViewController 0
 #define COCOAPODS_VERSION_PATCH_JSMessagesViewController 2
 
+// KGStatusBar
+#define COCOAPODS_POD_AVAILABLE_KGStatusBar
+#define COCOAPODS_VERSION_MAJOR_KGStatusBar 1
+#define COCOAPODS_VERSION_MINOR_KGStatusBar 0
+#define COCOAPODS_VERSION_PATCH_KGStatusBar 0
+
 // MBProgressHUD
 #define COCOAPODS_POD_AVAILABLE_MBProgressHUD
 #define COCOAPODS_VERSION_MAJOR_MBProgressHUD 0
-#define COCOAPODS_VERSION_MINOR_MBProgressHUD 8
+#define COCOAPODS_VERSION_MINOR_MBProgressHUD 7
 #define COCOAPODS_VERSION_PATCH_MBProgressHUD 0
 
 // PopoverView
@@ -123,7 +129,7 @@
 // REMenu
 #define COCOAPODS_POD_AVAILABLE_REMenu
 #define COCOAPODS_VERSION_MAJOR_REMenu 1
-#define COCOAPODS_VERSION_MINOR_REMenu 6
+#define COCOAPODS_VERSION_MINOR_REMenu 4
 #define COCOAPODS_VERSION_PATCH_REMenu 0
 
 // Reachability
@@ -165,7 +171,7 @@
 // SVWebViewController
 #define COCOAPODS_POD_AVAILABLE_SVWebViewController
 #define COCOAPODS_VERSION_MAJOR_SVWebViewController 0
-#define COCOAPODS_VERSION_MINOR_SVWebViewController 2
+#define COCOAPODS_VERSION_MINOR_SVWebViewController 1
 #define COCOAPODS_VERSION_PATCH_SVWebViewController 0
 
 // TMCache
@@ -178,5 +184,5 @@
 #define COCOAPODS_POD_AVAILABLE_TTTAttributedLabel
 #define COCOAPODS_VERSION_MAJOR_TTTAttributedLabel 1
 #define COCOAPODS_VERSION_MINOR_TTTAttributedLabel 7
-#define COCOAPODS_VERSION_PATCH_TTTAttributedLabel 2
+#define COCOAPODS_VERSION_PATCH_TTTAttributedLabel 1
 

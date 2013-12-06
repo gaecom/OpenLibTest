@@ -1,4 +1,4 @@
-__*Important note if your project doesn't use ARC*: you must add the @-fobjc-arc@ compiler flag to @SVWebViewController.m@ and @SVModalWebViewController.m@ in Target Settings > Build Phases > Compile Sources.__
+__Note: SVWebViewController now uses Automatic Reference Counting (ARC). Find the last MRC commit on the "master-mrc":https://github.com/samvermette/SVWebViewController/tree/master-mrc branch.__
 
 h1. SVWebViewController
 
@@ -11,7 +11,6 @@ is a simple inline browser for iOS. The iPhone UI is highly based on Tweetie's i
 * iPhone and iPad distinct UIs
 * full landscape orientation support
 * back, forward, stop/refresh and action buttons (with actions "Open in Safari" and "Mail Link")
-* "Open in Chrome" action button if Google Chrome is installed (by "alexruperez":http://github.com/alexruperez)
 * navbar title set to the currently visible web page
 * talks with @setNetworkActivityIndicatorVisible@
 
@@ -29,13 +28,15 @@ Just like any UIViewController, SVWebViewController can be pushed into a UINavig
 <pre>
 SVWebViewController *webViewController = [[SVWebViewController alloc] initWithAddress:@"http://google.com"];
 [self.navigationController pushViewController:webViewController animated:YES];
+[webViewController release];
 </pre>
 
 It can also be presented modally using @SVModalWebViewController@:
 
 <pre>
 SVModalWebViewController *webViewController = [[SVModalWebViewController alloc] initWithAddress:@"http://google.com"];
-[self presentModalViewController:webViewController animated:YES];
+[self presentModalViewController:webViewController animated:YES];	
+[webViewController release];
 </pre>
 
 h3. Changing the bars tint color
@@ -51,12 +52,11 @@ enum {
     SVWebViewControllerAvailableActionsNone             = 0,
     SVWebViewControllerAvailableActionsOpenInSafari     = 1 << 0,
     SVWebViewControllerAvailableActionsMailLink         = 1 << 1,
-    SVWebViewControllerAvailableActionsCopyLink         = 1 << 2,
-    SVWebViewControllerAvailableActionsOpenInChrome     = 1 << 3
+    SVWebViewControllerAvailableActionsCopyLink         = 1 << 2
 };
 </pre>
 
-Default is @SVWebViewControllerAvailableActionsOpenInSafari | SVWebViewControllerAvailableActionsOpenInChrome | SVWebViewControllerAvailableActionsMailLink@.
+Default is @SVWebViewControllerAvailableActionsOpenInSafari | SVWebViewControllerAvailableActionsMailLink@.
 
 h2. Credits
 

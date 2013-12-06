@@ -23,6 +23,7 @@
 #import "PopoverViewTestVC.h"
 #import "SVSegmentVC.h"
 #import "REMenuVC.h"
+#import "KGStatusBarVC.h"
 
 @interface RootViewController ()
 
@@ -62,6 +63,7 @@
     classArray = [[NSMutableArray alloc]initWithCapacity:10];
     
     //list items
+    [listArray addObject:@"KGStatusBar Test"];
     [listArray addObject:@"REMenuTest"];
     [listArray addObject:@"SVSegmentControl"];
     [listArray addObject:@"PopoverViewTest"];
@@ -83,6 +85,7 @@
 
     
     //class items
+    [classArray addObject:@"KGStatusBarVC"];
     [classArray addObject:@"REMenuVC"];
     [classArray addObject:@"SVSegmentVC"];
     [classArray addObject:@"PopoverViewTestVC"];

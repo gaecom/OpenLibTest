@@ -2,11 +2,10 @@
 
 Dropdown menu inspired by Vine.
 
-<img src="https://github.com/romaonthego/REMenu/raw/master/Screenshot.png" alt="REMenu Screenshot" width="400" height="568" />
-<img src="https://github.com/romaonthego/REMenu/raw/master/Demo.gif" alt="REMenu Screenshot" width="320" height="568" />
+<img src="https://github.com/romaonthego/REMenu/raw/master/Screenshot.png" alt="REMenu Screenshot" width="320" height="480" />
 
 ## Requirements
-* Xcode 5 or higher
+* Xcode 4.5 or higher
 * Apple LLVM compiler
 * iOS 5.0 or higher
 * ARC
@@ -20,7 +19,7 @@ Build and run the `REMenuExample` project in Xcode to see `REMenu` in action.
 ### CocoaPods
 
 The recommended approach for installating `REMenu` is via the [CocoaPods](http://cocoapods.org/) package manager, as it provides flexible dependency management and dead simple installation.
-For best results, it is recommended that you install via CocoaPods >= **0.23.0** using Git >= **1.8.0** installed via Homebrew.
+For best results, it is recommended that you install via CocoaPods >= **0.15.2** using Git >= **1.8.0** installed via Homebrew.
 
 Install CocoaPods if not already available:
 
@@ -41,7 +40,7 @@ Edit your Podfile and add REMenu:
 
 ``` bash
 platform :ios, '5.0'
-pod 'REMenu', '~> 1.6'
+pod 'REMenu', '~> 1.4'
 ```
 
 Install into your Xcode project:
@@ -96,8 +95,8 @@ REMenuItem *profileItem = [[REMenuItem alloc] initWithTitle:@"Profile"
                                                          NSLog(@"Item: %@", item);
                                                      }];
 
-self.menu = [[REMenu alloc] initWithItems:@[homeItem, exploreItem, activityItem, profileItem]];
-[self.menu showFromNavigationController:self.navigationController];
+_menu = [[REMenu alloc] initWithItems:@[homeItem, exploreItem, activityItem, profileItem]];
+[_menu showFromNavigationController:self.navigationController];
 ```
 
 You can also present `REMenu` from a custom view, there are 2 specific tasks for that:
@@ -158,7 +157,6 @@ You can customize the following properties of `REMenu`:
 @property (assign, readwrite, nonatomic) NSTimeInterval animationDuration;
 @property (assign, readwrite, nonatomic) NSTimeInterval bounceAnimationDuration;
 @property (assign, readwrite, nonatomic) REMenuImageAlignment imageAlignment;
-@property (assign, readwrite, nonatomic) BOOL appearsBehindNavigationBar;
 @property (assign, readwrite, nonatomic) BOOL bounce;
 @property (copy, readwrite, nonatomic) void (^badgeLabelConfigurationBlock)(UILabel *badgeLabel, REMenuItem *item);
 ```
