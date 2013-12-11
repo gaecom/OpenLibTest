@@ -24,6 +24,7 @@
 #import "SVSegmentVC.h"
 #import "REMenuVC.h"
 #import "KGStatusBarVC.h"
+#import "MTStatusBarVC.h"
 
 @interface RootViewController ()
 
@@ -63,6 +64,7 @@
     classArray = [[NSMutableArray alloc]initWithCapacity:10];
     
     //list items
+    [listArray addObject:@"MTStatusBarOverlay"];
     [listArray addObject:@"KGStatusBar Test"];
     [listArray addObject:@"REMenuTest"];
     [listArray addObject:@"SVSegmentControl"];
@@ -85,6 +87,7 @@
 
     
     //class items
+    [classArray addObject:@"MTStatusBarVC"];
     [classArray addObject:@"KGStatusBarVC"];
     [classArray addObject:@"REMenuVC"];
     [classArray addObject:@"SVSegmentVC"];

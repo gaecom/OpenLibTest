@@ -28,6 +28,7 @@ PODS:
   - JSMessagesViewController (2.0.2)
   - KGStatusBar (1.0)
   - MBProgressHUD (0.7)
+  - MTStatusBarOverlay (0.9.1)
   - PopoverView (0.0.1)
   - Reachability (3.1.1)
   - REMenu (1.4)
@@ -54,6 +55,7 @@ DEPENDENCIES:
   - JSMessagesViewController (= 2.0.2)
   - KGStatusBar (= 1.0)
   - MBProgressHUD (= 0.7)
+  - MTStatusBarOverlay (~> 0.9.1)
   - PopoverView (= 0.0.1)
   - REMenu (= 1.4)
   - SAMCache (= 0.2.0)
@@ -79,6 +81,7 @@ SPEC CHECKSUMS:
   JSMessagesViewController: ce2ebb6b69dafbbeca78de3477e624802247a6d2
   KGStatusBar: e47f19745f6aeb0fabe37e8360df26bf87b1e2ff
   MBProgressHUD: 1fd8591a2216d5dec6de24e09187bb03bcbe9946
+  MTStatusBarOverlay: 2cee705996e4e307191d423bf49e583b9b2c14ac
   PopoverView: 571c17ebd5f0c20570e1f12ca1800bd56e1b6dc3
   Reachability: be4883bb93f31e38266ae3365e5600a317aae735
   REMenu: 4a03c754e50f63a4b2cf1effbcf01694044f086e

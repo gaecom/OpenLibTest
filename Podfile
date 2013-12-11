@@ -24,4 +24,5 @@ pod 'PopoverView', '0.0.1'
 pod 'FPPopover', '1.4.1'
 pod 'SVSegmentedControl', '0.2'
 pod 'KGStatusBar', '1.0'
+pod 'MTStatusBarOverlay', '~> 0.9.1'
 

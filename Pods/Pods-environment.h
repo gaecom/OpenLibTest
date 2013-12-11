@@ -120,6 +120,12 @@
 #define COCOAPODS_VERSION_MINOR_MBProgressHUD 7
 #define COCOAPODS_VERSION_PATCH_MBProgressHUD 0
 
+// MTStatusBarOverlay
+#define COCOAPODS_POD_AVAILABLE_MTStatusBarOverlay
+#define COCOAPODS_VERSION_MAJOR_MTStatusBarOverlay 0
+#define COCOAPODS_VERSION_MINOR_MTStatusBarOverlay 9
+#define COCOAPODS_VERSION_PATCH_MTStatusBarOverlay 1
+
 // PopoverView
 #define COCOAPODS_POD_AVAILABLE_PopoverView
 #define COCOAPODS_VERSION_MAJOR_PopoverView 0
